@@ -1,1 +1,1 @@
-# Comminication and feedback
+# Communication and feedback

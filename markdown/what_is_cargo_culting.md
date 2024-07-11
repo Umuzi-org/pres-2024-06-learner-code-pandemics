@@ -1,3 +1,0 @@
-### What is cargo culting
-
-Cargo culting is ...

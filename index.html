@@ -1,30 +1,67 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Umuzi.org | Pandemic avoidance presentation</title>
     <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css">
-    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/white.css" id="theme">
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/moon.css" id="theme">
 </head>
+
 <body>
     <div class="reveal">
         <div class="slides">
-            <section id="introduction" data-markdown="./markdown/introduction/introduction.md"></section>
-            <section data-markdown="markdown/table_of_content.md"></section>
-            <section id="common_problems_we_see" data-markdown="./markdown/common_problems_we_see/common_problems_we_see.md"></section>
-            <section id="code_organisation_and_structure" data-markdown="./markdown/code_organisation_and_structure/code_organisation_and_structure.md"></section>
-            <section id="error_handling_and_debugging" data-markdown="./markdown/error_handling_and_debugging/error_handling_and_debugging.md"></section>
-            <section id="best_practices_for_collaboration_and_version_control" data-markdown="./markdown/best_practices_for_collaboration_and_version_control/best_practices_for_collaboration_and_version_control.md"></section>
-            <section id="learning_and_progress_optimization" data-markdown="./markdown/learning_and_progress_optimization/learning_and_progress_optimization.md"></section>
-            <section id="communication_and_feedback" data-markdown="./markdown/communication_and_feedback/communication_and_feedback.md"></section>
+            <section id="introduction">
+                <section data-markdown="./markdown/introduction/introduction.md"></section>
+            </section>
+            <section>
+                <section data-markdown="markdown/table_of_content.md"></section>
+            </section>
+            <section id="common_problems_we_see">
+                <section data-markdown="./markdown/common_problems_we_see/common_problems_we_see.md"></section>
+                <section data-markdown="./markdown/common_problems_we_see/common_problems.md"></section>
+                <section data-markdown="./markdown/common_problems_we_see/cargo_culting/what_is_cargo_culting.md">
+                </section>
+
+                <section data-markdown="./markdown/common_problems_we_see/javascript_common_problems_we_see.md">
+                </section>
+                <section data-markdown="./markdown/common_problems_we_see/python_common_problems_we_see.md"></section>
+                <section data-markdown="./markdown/common_problems_we_see/java_common_problems_we_see.md"></section>
+
+            </section>
+            <section id="code_organisation_and_structure">
+                <section data-markdown="./markdown/code_organisation_and_structure/code_organisation_and_structure.md">
+                </section>
+            </section>
+            <section id="error_handling_and_debugging">
+                <section data-markdown="./markdown/error_handling_and_debugging/error_handling_and_debugging.md">
+                </section>
+                <section data-markdown="./markdown/error_handling_and_debugging/error_handling_content.md"></section>
+                <section data-markdown="./markdown/error_handling_and_debugging/debugging_content.md"></section>
+            </section>
+            <section id="best_practices_for_collaboration">
+                <section
+                    data-markdown="./markdown/best_practices_for_collaboration/best_practices_for_collaboration.md">
+                </section>
+            </section>
+            <section id="learning_and_progress_optimization">
+                <section
+                    data-markdown="./markdown/learning_and_progress_optimization/learning_and_progress_optimization.md">
+                </section>
+            </section>
+            <section id="communication_and_feedback">
+                <section data-markdown="./markdown/communication_and_feedback/communication_and_feedback.md">
+                </section>
+            </section>
         </div>
     </div>
     <script src="node_modules/reveal.js/dist/reveal.js"></script>
     <script src="node_modules/reveal.js/plugin/markdown/markdown.js"></script>
     <script>
         Reveal.initialize({
-            plugins: [ RevealMarkdown ]
+            plugins: [RevealMarkdown]
         });
     </script>
 </body>
+
 </html>
