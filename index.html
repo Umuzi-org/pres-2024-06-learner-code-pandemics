@@ -4,13 +4,21 @@
 <head>
     <meta charset="utf-8">
     <title>Umuzi.org | Pandemic avoidance presentation</title>
-    <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css">
-    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/white.css" id="theme">
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css"/>
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/white.css" id="theme"/>
+    <link type="text/css" rel="stylesheet" href="node_modules/reveal.js/plugin/highlight/monokai.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
 </head>
 
 <body>
     <div class="reveal">
         <div class="slides">
+            <div id="logo">
+                <div id="logo-left">
+                    <img src="./images/logo.png" width="50px" height="50px"/>
+                    <p class="logo-text">tech team</p>
+                </div>
+            </div>
             <section id="introduction">
                 <section data-markdown="./markdown/introduction/introduction.md"></section>
             </section>
@@ -19,7 +27,7 @@
             </section>
             <section id="common_problems_we_see">
                 <section data-markdown="./markdown/common_problems_we_see/common_problems_we_see.md"></section>
-                <section data-markdown="./markdown/common_problems_we_see/common_problems.md"></section>
+                <!-- <section data-markdown="./markdown/common_problems_we_see/common_problems.md"></section> -->
                 <section data-markdown="./markdown/common_problems_we_see/javascript_common_problems_we_see.md"></section>
                 <section data-markdown="./markdown/common_problems_we_see/python_common_problems_we_see.md"></section>
                 <section data-markdown="./markdown/common_problems_we_see/java_common_problems_we_see.md"></section>
@@ -32,13 +40,17 @@
             </section>
             <section id="code_organisation_and_structure">
                 <section data-markdown="./markdown/code_organisation_and_structure/code_organisation_and_structure.md"></section>
-                <section data-markdown="./markdown/cargo_culting/bad_code_organisation.md"></section>
-                <section data-markdown="./markdown/cargo_culting/good_code_organisation.md"></section>
+                <section data-markdown="./markdown/code_organisation_and_structure/bad_code_organisation.md"></section>
+                <section data-markdown="./markdown/code_organisation_and_structure/bad_code_organisation_example.md"></section>
+                <section data-markdown="./markdown/code_organisation_and_structure/good_code_organisation.md"></section>
+                <section data-markdown="./markdown/code_organisation_and_structure/good_code_organisation_example.md"></section>
             </section>
             <section id="error_handling_and_debugging">
                 <section data-markdown="./markdown/error_handling_and_debugging/error_handling_and_debugging.md"></section>
                 <section data-markdown="./markdown/error_handling_and_debugging/bad_error_handling.md"></section>
+                <section data-markdown="./markdown/error_handling_and_debugging/examples_of_bad_error_handling.md"></section>
                 <section data-markdown="./markdown/error_handling_and_debugging/good_error_handling.md"></section>
+                <section data-markdown="./markdown/error_handling_and_debugging/examples_of_good_error_handling.md"></section>
                 <section data-markdown="./markdown/error_handling_and_debugging/error_handling_content.md"></section>
                 <section data-markdown="./markdown/error_handling_and_debugging/debugging_content.md"></section>
             </section>
@@ -64,10 +76,19 @@
     </div>
     <script src="node_modules/reveal.js/dist/reveal.js"></script>
     <script src="node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+    <script type="text/javascript" src="node_modules/reveal.js/plugin/highlight/highlight.js"></script>  
     <script>
         Reveal.initialize({
-            plugins: [RevealMarkdown]
+            hash: true,
+            autoPlayMedia: true,
+
+            plugins: [
+                RevealMarkdown, 
+                RevealHighlight,
+            ]
         });
+
+
     </script>
 </body>
 

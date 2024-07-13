@@ -1,7 +1,7 @@
 ### General problem across all streams:
 
-- Cargo culting
-- Learners tend to multi-task.
-- Learners are approving work that in not yet competent.
-- Lack of alignment between LX coach, staff member and learner.
-- Optimizing for the wrong thing (Focusing on completing cards instead of focusing on understanding).
+- Cargo culting.
+- Bad code organization and structure.
+- Bad error handling and debugging.
+- Bad collaboration and team play.
+- Bad learning optimization

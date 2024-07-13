@@ -1,1 +1,6 @@
-# Good communication and feedback
+## Good communication and feedback
+
+- Push back on culty reviews so that they don't spread across the org.
+- Making clear and thourough reviews.
+- Making good use of HESK
+-  Being a good set of eyes and raising conserns when you see inconsistencies/mistakes with the syllabus or project instructions
