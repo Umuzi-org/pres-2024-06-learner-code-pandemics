@@ -1,6 +1,6 @@
-**Example of badly organized code**
+### Example of badly organized code
 
-```
+```python
 def process_data(data):
     data.sort()
     filtered_data = [d for d in data if d % 2 == 0]
@@ -12,3 +12,4 @@ def process_data(data):
 data = [5, 2, 9, 1, 5, 6]
 process_data(data)
 ```
+Notice how this single function is doing 5 things. 

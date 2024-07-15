@@ -1,4 +1,4 @@
-**Good code organization**
+## Good code organization
 
 Characteristics:
 

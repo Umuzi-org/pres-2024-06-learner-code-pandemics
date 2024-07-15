@@ -1,4 +1,4 @@
-**Examples of cargo culting in our community:**
+## Examples of cargo culting
 
 Assignee submits the following code for review:
 ```javascript

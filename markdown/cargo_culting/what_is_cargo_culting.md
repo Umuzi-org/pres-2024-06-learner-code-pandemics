@@ -1,4 +1,4 @@
- **What is cargo culting?**
+ ## What is cargo culting
 
 Cargo cult programming is a style of programming where inexperienced programmers copy code or use design patterns without understanding how they work or why they are used.
 

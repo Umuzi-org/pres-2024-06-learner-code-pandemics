@@ -1,6 +1,16 @@
 {
+  "name": "pres-2024-06-learner-code-pandemics",
+  "version": "1.0.0",
+  "description": "Presentation on pandamic avoidance",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server"
+  },
   "dependencies": {
     "highlight.js": "^11.10.0",
+    "http-server": "^14.1.1",
     "reveal.js": "^5.1.0"
-  }
+  },
+  "author": "Umuzi tech team",
+  "license": "ISC"
 }

@@ -1,7 +1,6 @@
-### General problem across all streams:
+## General problems
 
-- Cargo culting.
+- Improper validation of input.
+- Not following instructions accordingly.
 - Bad code organization and structure.
-- Bad error handling and debugging.
-- Bad collaboration and team play.
-- Bad learning optimization
+- Using AI on project work and coderbyte assessments.

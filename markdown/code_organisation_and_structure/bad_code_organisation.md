@@ -1,4 +1,4 @@
-**Bad code organization**
+## Bad code organization
 
 Characteristics:
 

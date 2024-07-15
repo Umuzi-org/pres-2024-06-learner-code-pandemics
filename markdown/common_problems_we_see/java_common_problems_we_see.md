@@ -1,2 +1,3 @@
 ## Common problems with Java projects
-- Pandemic
+
+- Using Gradle with Groovy instead of using it with Kotlin.

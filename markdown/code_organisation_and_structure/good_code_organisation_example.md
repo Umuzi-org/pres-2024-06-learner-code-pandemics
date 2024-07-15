@@ -1,4 +1,4 @@
-**Good code organization example**
+### Good code organization example
 
 ```python
 def sort_data(data):
@@ -25,4 +25,4 @@ data = [5, 2, 9, 1, 5, 6]
 process_data(data)
 ```
 
-notice that the functions are not stored in a saperate file :wink:
+Notice that the functions are not stored in a saperate file :)
