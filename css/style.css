@@ -1,3 +1,7 @@
+:root {
+    --r-link-color: coral;
+}
+
 #logo-left {
     position: absolute;
     top: 0%;

@@ -11,8 +11,8 @@ def save_to_file(total, filename):
     try:
         with open(filename, 'w') as f:
             f.write(str(total))
-    except IOError:
-        print(f"Error saving to {filename}")
+    except IOError as err:
+        raise(err)
 
 def process_data(data, filename='output.txt'):
     sorted_data = sort_data(data)
