@@ -5,7 +5,7 @@ Characteristics:
 - **Modularization**: Small, focused functions.
 - **Consistent Naming**: Descriptive and uniform.
 - **DRY Principle**: No repeated code.
-- **Self documenting**: No need for to much comments
-- **Proper Error Handling**: Errors handld gracefully
+- **Self documenting**: No need for to much comments.
+- **Proper Error Handling**: Errors handled effectively or left.
 
 Well Organized Code is clear, modular, maintainable, and robust.
