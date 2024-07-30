@@ -5,7 +5,7 @@
 - Section 3 : [Code Organization and Structure](#code_organisation_and_structure)
 - Section 4 : [Error Handling](#error_handling)
 - Section 5 : [Learning and Progress Optimization](#learning_and_progress_optimization)
-- Section 6 : [Conclusion](#conclusion)
+- Section 6 : [Testing](#testing)
 
 
 
